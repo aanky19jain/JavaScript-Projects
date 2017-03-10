@@ -1,5 +1,14 @@
 {
   "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "destructuring": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "templateStrings": true,
     "jsx": true
   },
   "env": {
@@ -17,7 +26,15 @@
     "no-lone-blocks": 0
   },
   "globals": {
-    jQuery: true,
-    $: true
+    "__BROWSER__": false,
+    "__SERVER__": false,
+    "__DEV__": false,
+    "__PROD__": false,
+    "__": false,
+    "Promise": true,
+    "casper": false,
+    "jest": false,
+    "jQuery": true,
+    "$": true
   }
 }
